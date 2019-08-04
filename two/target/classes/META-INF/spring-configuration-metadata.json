@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "com",
+      "type": "com.zhangyu.practice.firstspringboot.com.Config.ResourceConfig",
+      "sourceType": "com.zhangyu.practice.firstspringboot.com.Config.ResourceConfig"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhangyu.practice.firstspringboot.com.dao.mapper.TuserMapper">
+
+    <resultMap id="tUser" type="com.zhangyu.practice.firstspringboot.com.entity.Tuser">
+        <result column="USER_ID"  property="userId" jdbcType="VARCHAR"/>
+        <result column="USER_NAME"  property="username" jdbcType="VARCHAR"/>
+        <result column="PHONE"  property="phone" jdbcType="VARCHAR"/>
+    </resultMap>
+    <select id="selectHpone" resultMap="tUser">
+        SELECT * FROM t_user T WHERE T.user_id =#{userId}
+    </select>
+</mapper>
