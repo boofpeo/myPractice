@@ -1,0 +1,16 @@
+server:
+  port: 8089
+spring:
+  dubbo:
+    application :
+      name : provider
+    registry :
+      protocol: zookeeper
+      address : 192.168.188.102:2181
+    protocol :
+      name : dubbo
+      port : 20880
+    scan:
+      basePackages: com.zhangyu.dubbo.demo.springbootdubboprovide.dubbotest.Service
+
+
