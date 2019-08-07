@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/firstspringboot.iml" filepath="$PROJECT_DIR$/firstspringboot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../springboot-dubbo-api/springboot-dubbo-api.iml" filepath="$PROJECT_DIR$/../springboot-dubbo-api/springboot-dubbo-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../springboot-dubbo-provide/springboot-dubbo-provide.iml" filepath="$PROJECT_DIR$/../springboot-dubbo-provide/springboot-dubbo-provide.iml" />
     </modules>
   </component>
 </project>

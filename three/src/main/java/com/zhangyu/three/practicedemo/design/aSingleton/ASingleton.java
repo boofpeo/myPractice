@@ -1,4 +1,4 @@
-package com.zhangyu.three.practicedemo.design.ASingleton;
+package com.zhangyu.three.practicedemo.design.aSingleton;
 
 /**
  * 单例实现

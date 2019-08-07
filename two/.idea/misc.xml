@@ -4,14 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/../springboot-dubbo-provide/pom.xml" />
-        <option value="$PROJECT_DIR$/../springboot-dubbo-api/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/springboot-dubbo-provide/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="NodePackageJsonFileManager">

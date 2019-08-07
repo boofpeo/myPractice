@@ -1,6 +1,5 @@
 package com.zhangyu.three.practicedemo.design.creational.factorymethod;
 
-import com.zhangyu.practice.firstspringboot.practicedemo.design.creational.simpleFactory.ASimpleFactory;
 
 /**
  * @author yu.zhang
