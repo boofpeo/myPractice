@@ -12,6 +12,8 @@
 	<artifactId>three</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>three</name>
+	 <!--<packaging>jar</packaging> -->
+	<packaging>war</packaging>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -43,6 +45,18 @@
 			<version>1.2.44</version>
 		</dependency>
 
+		<!-- JSP 渲染引擎 -->
+		<dependency>
+			<groupId>org.apache.tomcat.embed</groupId>
+			<artifactId>tomcat-embed-jasper</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- JSTL -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -54,7 +68,29 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+
+		<!--&lt;!&ndash;eureka server&ndash;&gt;-->
+		<!--<dependency>-->
+			<!--<groupId>org.springframework.cloud</groupId>-->
+			<!--<artifactId>spring-cloud-starter-eureka-server</artifactId>-->
+		<!--</dependency>-->
+
+
 	</dependencies>
+
+	<!--子Module不会继承该依赖，除非显示声明-->
+	<!--<dependencyManagement>-->
+		<!--<dependencies>-->
+			<!--<dependency>-->
+				<!--<groupId>org.springframework.cloud</groupId>-->
+				<!--<artifactId>spring-cloud-dependencies</artifactId>-->
+				<!--<version>Dalston.SR1</version>-->
+				<!--<type>pom</type>-->
+				<!--<scope>import</scope>-->
+			<!--</dependency>-->
+		<!--</dependencies>-->
+	<!--</dependencyManagement>-->
 
 	<build>
 		<plugins>
